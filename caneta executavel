@@ -1,0 +1,27 @@
+package obj;
+
+/**
+ *
+ * @author Sala1
+ */
+public class NewClass {
+
+   public static void main (String[] args){
+      Obj c1 = new Obj();
+      c1.cor = " azul";
+      c1.ponta = 0.5f;
+    //  c1.tampar ();
+      c1.tampar();
+      c1.status();
+      c1.rabiscar();
+      
+      Obj c2 = new Obj();
+      c2.modelo = "hostnet";
+      c2.cor = "verde ";
+      c2.destampar();
+      c2.rabiscar();
+      c2.status();
+   }
+}
+
+
