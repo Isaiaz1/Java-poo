@@ -1,0 +1,33 @@
+package obj;
+
+
+public class Obj {
+
+  //  public void caneta(){
+  //obj caneta
+       String modelo;
+         String cor;
+         float ponta;
+         int carga;
+         boolean tampada;
+    void status(){
+        System.out.println("caneta "+this.cor);
+        System.out.println("esta tampada? "+this.tampada);
+        System.out.println("modelo é "+this.modelo);
+        System.out.println("carga é "+this.carga);
+        System.out.println("a ponta é "+this.ponta);
+    }
+    void rabiscar(){   
+        if (this.tampada==true) {
+            System.out.println("erro n posso rabiscar ");
+        }else{
+            System.out.println("estou rabiscando ");
+        }
+   }
+    void tampar(){
+    this.tampada = true;
+}
+void destampar(){
+    this.tampada = false;
+        }
+}
