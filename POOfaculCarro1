@@ -1,0 +1,13 @@
+public class Carro {
+    int potencia;
+    int ano;
+    String modelo;
+    int velocidade;
+    
+    void acelerar (){
+        velocidade += potencia;
+    }
+    void frear (){
+        velocidade /=2;
+}
+}
