@@ -1,0 +1,19 @@
+package obj2;
+
+
+public class maca2 {
+     public static void main (String[] args){
+         
+         maca m1 = new maca();
+         
+         m1.cor =" vermelha";
+         m1.tamanho = 10.5f ;
+         m1.formato = "redonda";
+         m1.modelo= "fruta ";
+         m1.status();
+         m1.morder();
+         
+         
+         
+     }
+}
