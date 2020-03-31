@@ -1,0 +1,27 @@
+package obj2;
+
+
+public class maca {
+    //maca maça
+    
+    String modelo;
+    String cor;
+  float tamanho ;
+  String formato ;
+ boolean mordida,inteira;
+  
+ void status(){
+     System.out.println("a cor da maça é "+this.cor);
+     System.out.println("a maça é uma "+this.modelo);
+     System.out.println(" seu tamanho é "+this.tamanho+" cm");
+     System.out.println("seu formato é "+this.formato);
+}
+ void morder(){
+     if(this.mordida==false){
+         System.out.println("a maça esta inteira");
+     }else{
+          System.out.println("a maça foi mordida ");
+     }
+     
+ }
+}
