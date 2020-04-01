@@ -1,0 +1,32 @@
+  public class inicial {
+            public static void main (String[] args){     
+            Carro fusca = new Carro();
+            fusca.modelo = " fusca ";
+            fusca.ano = 1972;
+            fusca.potencia = 5;
+         //   fusca.velocidade = 29902        
+            fusca.acelerar();
+            fusca.mostrarvelo();
+            fusca.acelerar();
+            fusca.mostrarvelo();
+            fusca.frear();
+            fusca.mostrarvelo();
+            fusca.frear();
+             
+Carro bmw =  new Carro();
+bmw.modelo = " bmw s5 ";
+bmw.ano = 2020;
+bmw.potencia = 30;
+           bmw.mostrarvelo();
+           bmw.acelerar();
+           bmw.mostrarvelo();
+           bmw.acelerar();
+           bmw.mostrarvelo();
+           bmw.frear();
+           bmw.mostrarvelo();
+           bmw.frear();
+             
+             
+             
+        }                    
+}
