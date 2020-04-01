@@ -4,10 +4,17 @@ public class Carro {
     String modelo;
     int velocidade;
     
-    void acelerar (){
-        velocidade += potencia;
+   void acelerar (){
+   velocidade += potencia;
     }
     void frear (){
-        velocidade /=2;
+   velocidade /=2;
 }
+public void mostrarvelo(){
+System.out.println("o carro modelo " + modelo+ 
+" com potencia " +potencia+ "km "+ "esta na velocidade de "+velocidade );        
+    }
 }
+
+
+
