@@ -3,18 +3,41 @@ public class Carro {
     int ano;
     String modelo;
     int velocidade;
+    int velocimaxima;
     
    void acelerar (){
-   velocidade += potencia;
-    }
+       
+       if((velocidade = potencia+velocidade) > velocimaxima) {     
+   }else{ velocidade += potencia;
+   System.out.println("o carro modelo " + modelo+ " com potencia " +potencia+ "km "+ "esta na velocidade de "+velocidade+
+   "tentou utrapassar o limite de " +velocimaxima);
+
+      // velocidade += potencia;
+           }
+   }
+       
     void frear (){
    velocidade /=2;
 }
 public void mostrarvelo(){
-System.out.println("o carro modelo " + modelo+ 
-" com potencia " +potencia+ "km "+ "esta na velocidade de "+velocidade );        
+System.out.println("o carro modelo " + modelo+ " com potencia " +potencia+ "km "+ "esta na velocidade de "+velocidade);
+     //  "tentou utrapassar o limite de "+velocimaxima );        
     }
+public Carro(String parmodelo){
+    this.modelo = parmodelo;
 }
+public Carro(String parmodelo,int parpotencia,int parvelocimaxima){
+    this.modelo = parmodelo;
+     this.potencia = parpotencia;
+      this.velocimaxima = parvelocimaxima;
+}
+        
+}
+
+
+
+
+
 
 
 
